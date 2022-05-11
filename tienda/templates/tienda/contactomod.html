@@ -1,0 +1,18 @@
+{% extends './base.html' %}
+
+{% block title %}<title>Formulario de contacto</title>{% endblock %}
+
+{% block content%}
+
+{% load crispy_forms_tags %}
+<br>
+<br>
+<div class="col-12 col-md-6 offset-md-3 text-dark">
+    <div class="card">
+        <div class="card-body">
+            <h3>Contáctanos</h3>
+            <hr>
+            {% for c in contactos %}
+                {{c.nombre}}
+            {% endfor %}
+{% endblock %}

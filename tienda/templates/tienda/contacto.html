@@ -1,0 +1,28 @@
+{% extends './base.html' %}
+
+  {% block content %}
+      <div class="row">
+        <div class="col-sm-12 p-3 bg-light text-dark">
+          <h2 id = titulo>Formulario de Contacto</h2>
+          <p id = confirmacion>Ingresa tus datos para contactarte con nosotros:</p>
+          <!--Inicio del Formulario-->
+            <form  name="formcontacto" action="./confirmacion" onsubmit="return validarcontacto()" method="POST">
+            <!--caja nombre-->
+            <div class="form-floating mb-3 mt-3" style="margin:50px">
+              <input type="text" class="form-control" id="nombre" placeholder="Enter email" name="nombre">
+              <label for="nombre">Nombre</label>
+            </div>
+            <!--caja email-->
+            <div class="form-floating mt-3 mb-3" style="margin:50px">
+              <input type="text" class="form-control" id="email" placeholder="Enter e-mail" name="email">
+              <label for="email">E-Mail</label>
+            </div>
+            <!--caja mensaje-->
+            <div class="form-floating mb-3 mt-3" style="margin:50px">
+              <textarea class="form-control" rows="5" id="mensaje" name="mensaje" placeholder="Comment goes here"></textarea>
+              <label for="mensaje">Mensaje</label>
+            </div>
+            <!--botón enviar-->
+          <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+  {% endblock %}
