@@ -22,6 +22,8 @@ Para agregar las imagenes importamos la libreria pillow.
 **NOTA:** Se nos presentó un problema al intentar cargar los datos de las base de datos en otro equipo (error: contenttypes). Lo solucionamos ingresando a la shell
 de django, y ejecutando:
 
-```from django.contrib.contenttypes.models import ContentType
+```
+from django.contrib.contenttypes.models import ContentType
 ContentType.objects.all().delete()
-quit()```
+quit()
+```
