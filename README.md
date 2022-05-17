@@ -1,7 +1,9 @@
 # AE1_M7_grupal
-M7 AE1 grupal
+##Trabajo Grupal 
+#Aprendizaje Esperado 1 - Módulo 7
+###Grupo 1
 
-**Grupo 1**
+<h1 align="center">Material Bread</h1>
 
 Creamos el modelo de productos, y formulario de registro de productos. Y los templates asociados formulario de registro, catálogo de productos,
 lista de productos(tabla). 
