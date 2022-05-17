@@ -15,11 +15,11 @@ Para agregar las imagenes importamos la libreria pillow.
 - Crear el entorno virtual
 - Instalar el archivo de requirements.txt
 - Hacer las migraciones, makemigrations y luego migrate.
-- Crear el superusuario o proceder a cargar el archivo de datos que usamos el que nombramos data.json
+- Crear el superusuario o proceder a cargar el archivo de datos que usamos el que nombramos data.json.
 - Aplicar el comando migrate.
 - Y por ultimo correr el servidor con ```python manage.py runserver```.
 
-**NOTA:** Se nos presentó un problema al intentar cargar los datos de las base de datos en otro equipo (error: contenttypes). Lo solucionamos ingresando a la shell
+**NOTA:** Se nos presentó un problema al intentar cargar los datos de las base de datos en otro equipo (error: _contenttypes_). Lo solucionamos ingresando a la shell
 de django mediante:
 
 ```
