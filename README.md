@@ -20,7 +20,13 @@ Para agregar las imagenes importamos la libreria pillow.
 - Y por ultimo correr el servidor con python manage.py runserver.
 
 **NOTA:** Se nos presentó un problema al intentar cargar los datos de las base de datos en otro equipo (error: contenttypes). Lo solucionamos ingresando a la shell
-de django, y ejecutando:
+de django mediante:
+
+```
+python manage.py shell
+```
+
+y ejecutando:
 
 ```
 from django.contrib.contenttypes.models import ContentType
